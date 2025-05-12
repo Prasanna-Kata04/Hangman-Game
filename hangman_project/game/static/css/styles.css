@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header styling */
+h1 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Game container styling */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Input styling */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: calc(100% - 22px); /* Adjust width considering padding and border */
+}
+
+/* Message styling */
+.message {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.game-board {
+    margin: 20px 0;
+}
+
+.game-board .word {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.game-board .letters {
+    font-size: 18px;
+    margin-top: 10px;
+}

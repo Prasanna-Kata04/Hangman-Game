@@ -1,0 +1,15 @@
+<!-- game/templates/game/home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman Game</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+</head>
+<body>
+    <h1>Welcome to Hangman Game</h1>
+    <p>Click below to start a new game:</p>
+    <a href="{% url 'new_game' %}">Start New Game</a>
+</body>
+</html>
